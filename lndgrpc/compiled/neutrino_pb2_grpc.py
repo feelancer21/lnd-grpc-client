@@ -125,6 +125,7 @@ class NeutrinoKitServicer(object):
 
     def GetBlockHash(self, request, context):
         """
+        Deprecated, use chainrpc.GetBlockHash instead.
         GetBlockHash returns the header hash of a block at a given height.
         """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
