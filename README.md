@@ -1,3 +1,10 @@
+### This is a fork with minor changes from
+
+https://github.com/kornpow/lnd-grpc-client
+
+for my own data project. The name of the forked package at pypi.org is `fl21-lnd-grpc-client`.
+
+-------------------------------------------------------------
 # lnd-grpc-client
 A python grpc client for LND (Lightning Network Daemon) ⚡⚡⚡
 

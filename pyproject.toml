@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "lnd-grpc-client"
-version = "0.5.2"
-description = "An rpc client for LND (lightning network deamon)"
-authors = ["Kornpow <test@email.com>"]
+name = "fl21-lnd-grpc-client"
+version = "0.6.0"
+description = "feelancer21 edition: An rpc client for LND (lightning network deamon)"
+authors = ["feelancer21 <test@email.com>"]
 readme = "README.md"
 license = "MIT"
-repository = "https://github.com/kornpow/lnd-grpc-client"
-homepage = "https://github.com/kornpow/lnd-grpc-client"
+repository = "https://github.com/feelancer21/lnd-grpc-client"
+homepage = "https://github.com/feelancer21/lnd-grpc-client"
 packages = [
     { include = "lndgrpc" },
 ]
